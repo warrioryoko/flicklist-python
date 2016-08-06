@@ -4,7 +4,7 @@ class Index(webapp2.RequestHandler):
 
     def getRandomMovie(self):
 
-        # TODO: make an array with at least 5 movie titles
+        # TODO: make a list with at least 5 movie titles
 
         # TODO: randomly choose one of the movies, and return it
 
