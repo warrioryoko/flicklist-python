@@ -15,7 +15,7 @@ class Index(webapp2.RequestHandler):
 
         # build the response string
         response = "<h1>Movie of the Day</h1>"
-        response += "<ul><li>" + movie + "</li></ul>"
+        response += "<p>" + movie + "</p>"
 
         self.response.write(response)
 
