@@ -11,6 +11,7 @@ class Index(webapp2.RequestHandler):
         return "The Big Lebowski"
 
     def get(self):
+        # choose a movie by invoking our new function
         movie = self.getRandomMovie()
 
         # build the response string
